@@ -1,4 +1,4 @@
-*{ /* 기본 속성 없애기 */
+*{ /* 기본 속성 없애기 및 설정 */
     font-family: 'Noto sans KR', sans-serif;
     list-style : none; /*목록 점 없애기*/
     text-decoration: none; /*색깔, 밑줄 없애기*/
@@ -13,17 +13,24 @@ h1{
     font-size: 48px;
     font-weight: 100;
 }
-
-h4{
+ /*content1(내용)의 폰트 사이즈를 20px로 통일*/
+.content1{
     font-size: 20px;
     font-weight: lighter;
 }
 
+ /*content2(내용)의 폰트 사이즈를 24px로 통일*/
+ .content2{
+    font-size: 24px;
+}
+
+
+/* INTRO_AREA 시작 */
  .introArea_bg{
     background-image:url("image/KakaoTalk_20220501_133722310.jpg");
     width:100%;
-    height: 69.9vw;
-    background-size: contain;
+    height: 895px;
+    background-size: cover;
 }
 
 .header{
@@ -83,3 +90,31 @@ h4{
 .introArea_text > h4{
     color:#fff;
 }
+
+/* INTRO_AREA 끝 */
+
+/*Basic_Info 시작 */
+.Basic_Info{
+    position: relative;
+    top: -66px;
+    display:flex;
+    width: 1280px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin:auto;
+}
+.Basic_Info > li{
+    flex: 1;
+    height: 132px;
+}
+.Basic_Info > li > div {
+    text-align: center;
+    margin-top: 37px;
+    height: 57px;
+}
+
+.Basic_Info > li:not(:last-child) > div{
+    /*마지막 list에 있는 div만 오른쪽 border 제외*/
+    border-right:1px solid gray;
+}
+/*Basic_Info 끝 */
