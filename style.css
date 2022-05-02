@@ -18,18 +18,30 @@ h1{
     font-size: 20px;
     font-weight: lighter;
 }
-
  /*content2(내용)의 폰트 사이즈를 24px로 통일*/
  .content2{
     font-size: 24px;
 }
-
+ /*content3(내용)의 폰트 사이즈를 14px로 통일*/
+ .content3{
+    font-size: 14px;
+    font-weight: 100;
+ }
+/*content 폰트를 볼드로 통일*/
+.content_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+ /*content4(내용)의 폰트 사이즈를 18px로 통일*/
+ .content4{
+    font-size: 24px;
+}
 
 /* INTRO_AREA 시작 */
  .introArea_bg{
     background-image:url("image/KakaoTalk_20220501_133722310.jpg");
     width:100%;
-    height: 895px;
+    height: 786px;
     background-size: cover;
 }
 
@@ -95,6 +107,7 @@ h1{
 
 /*Basic_Info 시작 */
 .Basic_Info{
+    /*보여지는 것만 66픽셀 위로/ 자신의 영역은 그대로 유지*/
     position: relative;
     top: -66px;
     display:flex;
@@ -118,3 +131,76 @@ h1{
     border-right:1px solid gray;
 }
 /*Basic_Info 끝 */
+
+/* Main_Info 시작 */
+.main_text0{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #F1F2F3;
+}
+
+.main_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+.main_text0 > content1{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+}
+.icons > li{
+    flex:1;
+    background: white;
+    margin-top: 49px;
+    height: 302px;
+    text-align: center;
+}
+
+.icon > li > .icon_image{
+    margin-top: 18px;
+}
+
+.icons > li:not(:last-child){
+    /* 마지막 요소만 빼고 오른쪽에 20px의 마진을 줌 */
+    margin-right: 20px;
+}
+
+.icons .content2 {
+    width: 240px;
+    margin: auto;
+    letter-spacing: -1px;
+}
+
+.more{
+    width: 100px;
+    height: 30px;
+    background: #2F7AF4;
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+    margin: auto;
+}
+.main_text1{
+    width: 100%;
+    height: 659px;
+}
+.main_text1 > h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+.main_text1 > content1 {
+    text-align: center;
+}
+.MAIN_INTRO{
+    width: 1280px;
+    display: flex;
+    margin: auto;
+    height: 427px;
+    background: skyblue;
+}
