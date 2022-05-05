@@ -193,14 +193,39 @@ h1{
 .MAIN_INTRO{
     width: 1280px;
     display: flex;
-    margin: auto;
+    margin: 49px auto;
     height: 427px;
-    background: skyblue;
 }
+
 .MAIN_INTRO > .content4{
     padding: 20px;
 }
 
 .MAIN_INTRO > .content4 > h2{
     margin-bottom: 27px;
+}
+
+/* Main _Intro2 */
+.main_intro2{
+    width: 100%;
+    height: 418px;
+    background-image:url("image/KakaoTalk_20220506_024704634.jpg");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.main_intro2 > ul{
+    display: flex;
+    padding-top: 138px;
+}
+
+.main_intro2 > ul > li > .right_text > h1{
+    flex: 1;
+    text-align: center;
+    color:#fff
+}
+
+.main_intro2 > ul > li > .left_text{
+    flex: 1;
+    color:#fff
 }
