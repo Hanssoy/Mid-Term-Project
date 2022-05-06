@@ -193,7 +193,7 @@ h1{
 .MAIN_INTRO{
     width: 1280px;
     display: flex;
-    margin: 49px auto;
+    margin: 49px auto auto 320P;
     height: 427px;
 }
 
@@ -219,13 +219,31 @@ h1{
     padding-top: 138px;
 }
 
-.main_intro2 > ul > li > .right_text > h1{
+.main_intro2 > ul > li {
     flex: 1;
     text-align: center;
+}
+
+.main_intro2 > ul > li > div > h1,
+.main_intro2 > ul > li > div{
+    flex: 1;
     color:#fff
 }
 
-.main_intro2 > ul > li > .left_text{
-    flex: 1;
-    color:#fff
+footer{
+    display:flex;
+    background: #f1f1f1;
+}
+
+footer > div:first-child{
+    flex: 3;
+    text-align: center;
+    color: #fff;
+    background: red;
+}
+
+footer > div:last-child{
+    flex: 2;
+    color: #fff;
+    background: blue;
 }
