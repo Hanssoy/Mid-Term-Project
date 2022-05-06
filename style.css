@@ -193,7 +193,7 @@ h1{
 .MAIN_INTRO{
     width: 1280px;
     display: flex;
-    margin: 49px auto auto 320P;
+    margin: 49px auto auto 320px;
     height: 427px;
 }
 
@@ -225,25 +225,26 @@ h1{
 }
 
 .main_intro2 > ul > li > div > h1,
-.main_intro2 > ul > li > div{
+.main_intro2 > ul > li > div > h2{
     flex: 1;
     color:#fff
 }
 
 footer{
     display:flex;
-    background: #f1f1f1;
+    background: #1f1f1f;
+    padding: 30px;
 }
 
 footer > div:first-child{
     flex: 3;
     text-align: center;
     color: #fff;
-    background: red;
 }
 
 footer > div:last-child{
-    flex: 2;
+    flex: 9;
     color: #fff;
-    background: blue;
 }
+
+
