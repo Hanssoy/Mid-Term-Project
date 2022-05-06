@@ -193,8 +193,15 @@ h1{
 .MAIN_INTRO{
     width: 1280px;
     display: flex;
-    margin: 49px auto auto 320px;
+    margin: 20px auto auto 200px;
     height: 427px;
+}
+.MAIN_INTRO > .mbti_photo > video {
+    max-width: 80%; 
+    display: block; 
+    margin: 20px auto;
+    width: 640px;
+    height: 426px;
 }
 
 .MAIN_INTRO > .content4{
@@ -203,6 +210,7 @@ h1{
 
 .MAIN_INTRO > .content4 > h2{
     margin-bottom: 27px;
+    color:red;
 }
 
 /* Main _Intro2 */
